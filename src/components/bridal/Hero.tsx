@@ -7,11 +7,15 @@ export function Hero() {
       <img
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
-        className="absolute inset-0 h-full w-full object-cover object-center"
+        className="absolute inset-0 h-full w-full object-cover"
+        style={{ objectPosition: "center 25%", filter: "brightness(1.12)" }}
       />
 
-      {/* Subtle bottom-up gradient for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+      {/* Warm soft overlay */}
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(255, 245, 240, 0.15)" }} />
+
+      {/* Minimal bottom gradient for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
       {/* Content — lower-left, directly on image */}
       <div className="absolute inset-0 flex items-end">
