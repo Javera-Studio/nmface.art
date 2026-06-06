@@ -32,12 +32,8 @@
   --color-ring: var(--ring);
 
   --color-cream: var(--cream);
-  --color-sand: var(--sand);
-  --color-sand-deep: var(--sand-deep);
-  --color-gold: var(--gold);
-  --color-gold-soft: var(--gold-soft);
-  --color-beige: var(--beige);
-  --color-brown: var(--brown);
+  --color-blush: var(--blush);
+  --color-rose: var(--rose);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
 
@@ -45,22 +41,19 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-script: "Great Vibes", "Cormorant Garamond", cursive;
 
-  --shadow-warm: 0 30px 80px -30px rgba(139, 106, 67, 0.28);
-  --shadow-warm-sm: 0 12px 30px -12px rgba(139, 106, 67, 0.22);
+  --shadow-soft: 0 30px 80px -40px rgba(95, 85, 84, 0.18);
+  --shadow-soft-sm: 0 12px 30px -18px rgba(95, 85, 84, 0.14);
 }
 
 :root {
   --radius: 1rem;
 
-  --cream: #fffdf8;
-  --sand: #f7f1e8;
-  --sand-deep: #efe3d3;
-  --gold: #b8924a;
-  --gold-soft: #d4b377;
-  --beige: #d8c3a5;
-  --brown: #8a6a43;
-  --ink: #3b2a1f;
-  --ink-soft: #7b6a58;
+  --cream: #FAF8F5;
+  --blush: #F4F0EB;
+  --rose: #CDBDC3;
+  --rose-soft: #E2D5DA;
+  --ink: #5F5554;
+  --ink-soft: #8E8483;
 
   --background: var(--cream);
   --foreground: var(--ink);
@@ -68,19 +61,19 @@
   --card-foreground: var(--ink);
   --popover: #ffffff;
   --popover-foreground: var(--ink);
-  --primary: var(--ink);
-  --primary-foreground: var(--cream);
-  --secondary: var(--sand);
+  --primary: var(--rose);
+  --primary-foreground: #ffffff;
+  --secondary: var(--blush);
   --secondary-foreground: var(--ink);
-  --muted: var(--sand);
+  --muted: var(--blush);
   --muted-foreground: var(--ink-soft);
-  --accent: var(--sand-deep);
+  --accent: var(--rose-soft);
   --accent-foreground: var(--ink);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: #fff;
-  --border: rgba(138, 106, 67, 0.14);
-  --input: rgba(138, 106, 67, 0.18);
-  --ring: var(--gold);
+  --border: rgba(95, 85, 84, 0.12);
+  --input: rgba(95, 85, 84, 0.16);
+  --ring: var(--rose);
 }
 
 @layer base {
@@ -103,7 +96,7 @@
     letter-spacing: -0.01em;
   }
   ::selection {
-    background: var(--gold);
+    background: var(--rose);
     color: #fff;
   }
 }
@@ -114,20 +107,11 @@
   font-style: italic;
 }
 
-@utility shadow-warm {
-  box-shadow: var(--shadow-warm);
+@utility shadow-soft {
+  box-shadow: var(--shadow-soft);
 }
-@utility shadow-warm-sm {
-  box-shadow: var(--shadow-warm-sm);
-}
-
-@utility gold-hairline {
-  position: relative;
-}
-@utility gold-frame {
-  box-shadow:
-    var(--shadow-warm),
-    inset 0 0 0 1px rgba(184, 146, 74, 0.35);
+@utility shadow-soft-sm {
+  box-shadow: var(--shadow-soft-sm);
 }
 
 @keyframes bali-fade-up {
@@ -146,23 +130,4 @@
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-/* ── Pampas decoration ───────────────────────────────────────────── */
-.pampas-deco {
-  position: absolute;
-  width: clamp(512px, 35vw, 832px);
-  height: auto;
-  opacity: 0.11;
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-}
-.pampas-left {
-  left: -90px;
-  bottom: -20px;
-}
-.pampas-right {
-  right: -90px;
-  bottom: -20px;
 }
