@@ -1,16 +1,33 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Navbar } from "@/components/bali/Navbar";
-import { Hero } from "@/components/bali/Hero";
-import { Studio } from "@/components/bali/Studio";
-import { Leistungen } from "@/components/bali/Leistungen";
-import { SignatureLooks } from "@/components/bali/SignatureLooks";
-import { Ergebnisse } from "@/components/bali/Ergebnisse";
-import { AboutComingSoon } from "@/components/bali/AboutComingSoon";
-import { Reviews } from "@/components/bali/Reviews";
-import { CtaBanner } from "@/components/bali/CtaBanner";
-import { Footer } from "@/components/bali/Footer";
+import { Navbar } from "@/components/bridal/Navbar";
+import { Hero } from "@/components/bridal/Hero";
+import { About } from "@/components/bridal/About";
+import { Looks } from "@/components/bridal/Looks";
+import { Ablauf } from "@/components/bridal/Ablauf";
+import { Leistungen } from "@/components/bridal/Leistungen";
+import { Reviews } from "@/components/bridal/Reviews";
+import { Faq } from "@/components/bridal/Faq";
+import { CtaFinal } from "@/components/bridal/CtaFinal";
+import { Footer } from "@/components/bridal/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Nermina Bridal · Natürliches Brautstyling in Wien" },
+      {
+        name: "description",
+        content:
+          "Mobiles Brautstyling in Wien: individuelle Beratung, Probetermin und persönliche Begleitung für deinen schönsten Tag. Frisur, Make-up und Gästestylings von Nermina.",
+      },
+      { property: "og:title", content: "Nermina Bridal · Natürliches Brautstyling in Wien" },
+      {
+        property: "og:description",
+        content:
+          "Romantisches, zeitloses Brautstyling in Wien – Frisur, Make-up und Begleitung für deinen Hochzeitstag.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+  }),
   component: Index,
 });
 
@@ -20,13 +37,13 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
-        <Studio />
+        <About />
+        <Looks />
+        <Ablauf />
         <Leistungen />
-        <SignatureLooks />
-        <Ergebnisse />
-        <AboutComingSoon />
         <Reviews />
-        <CtaBanner />
+        <Faq />
+        <CtaFinal />
       </main>
       <Footer />
     </div>
