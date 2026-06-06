@@ -1,4 +1,4 @@
-import portrait from "@/assets/about-nermina.jpg";
+import portrait from "@/assets/about-nermina.png";
 import { Reveal } from "@/components/bali/Reveal";
 
 const facts = [
