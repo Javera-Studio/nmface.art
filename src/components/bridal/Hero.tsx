@@ -14,15 +14,15 @@ export function Hero() {
       {/* Warm soft overlay */}
       <div className="absolute inset-0" style={{ backgroundColor: "rgba(255, 245, 240, 0.15)" }} />
 
-      {/* Subtle left-side gradient behind headline text */}
-      <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(245, 238, 228, 0.38) 0%, rgba(245, 238, 228, 0.18) 45%, transparent 70%)" }} />
+      {/* Localized dark gradient behind text area only */}
+      <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(80, 60, 55, 0.32) 0%, rgba(80, 60, 55, 0.14) 40%, transparent 65%)" }} />
 
       {/* Minimal bottom gradient for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
       {/* Content — lower-left, directly on image */}
       <div className="absolute inset-0 flex items-end">
-        <div className="w-full max-w-7xl mx-auto px-6 sm:px-12 pb-16 sm:pb-20 md:pb-24">
+        <div className="w-full max-w-7xl mx-auto px-6 sm:px-8 pb-10 sm:pb-12 md:pb-16">
           <div className="max-w-2xl space-y-5">
             <p
               className="font-script text-[44px] sm:text-[54px] leading-none"
@@ -31,8 +31,13 @@ export function Hero() {
               you are beautiful
             </p>
 
-            <h1 className="font-display text-[44px] sm:text-[60px] md:text-[72px] leading-[1.04] text-white">
-              Natürliches Brautstyling für deinen schönsten Tag
+            <h1
+              className="font-display font-medium text-[44px] sm:text-[60px] md:text-[72px] leading-[1.04] text-white"
+              style={{ textShadow: "0 2px 16px rgba(60, 45, 40, 0.35)" }}
+            >
+              Natürliches Brautstyling<br />
+              für deinen<br />
+              schönsten Tag
             </h1>
 
             <p className="text-[15px] sm:text-base text-white/70 tracking-wide pt-1">
