@@ -23,26 +23,26 @@ const WhatsAppIcon = () => (
 
 export function Footer() {
   return (
-    <footer className="bg-[color:var(--cream)] border-t border-[color:var(--rose)]/20">
+    <footer style={{ backgroundColor: "rgba(200, 177, 182, 1)" }}>
       <div className="mx-auto max-w-6xl px-6 sm:px-10 py-12 grid md:grid-cols-3 gap-8 md:gap-14">
 
         {/* Col 1: Brand */}
         <div>
-          <img src="/images/logoneu.png" alt="NM Faceart" className="h-20 w-auto mb-4" />
-          <p className="text-[12px] text-[color:var(--ink-soft)] max-w-[220px] leading-relaxed">
+          <img src="/images/logotransparent.png" alt="NM Faceart" className="h-20 w-auto mb-4" />
+          <p className="text-[12px] text-white/70 max-w-[220px] leading-relaxed">
             Mobiles Brautstyling für moderne, romantische Bräute – mit Ruhe, Zeit und Persönlichkeit.
           </p>
         </div>
 
         {/* Col 2: Kontakt */}
         <div>
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[color:var(--rose)] mb-5">Kontakt</p>
-          <ul className="space-y-3 text-[12px] text-[color:var(--ink-soft)]">
+          <p className="text-[10px] tracking-[0.3em] uppercase text-white/50 mb-5">Kontakt</p>
+          <ul className="space-y-3 text-[12px] text-white/75">
             <li>Heilbronn &amp; Umgebung · Mobiler Service</li>
             <li>
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
-                className="flex items-center gap-2 hover:text-[color:var(--ink)] transition-colors"
+                className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <MailIcon />
                 {CONTACT_EMAIL}
@@ -53,7 +53,7 @@ export function Footer() {
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-[color:var(--ink)] transition-colors"
+                className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <InstagramIcon />
                 @nmface.art
@@ -64,7 +64,7 @@ export function Footer() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-[color:var(--ink)] transition-colors"
+                className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <WhatsAppIcon />
                 Direkt kontaktieren
@@ -75,20 +75,20 @@ export function Footer() {
 
         {/* Col 3: Menü */}
         <div>
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[color:var(--rose)] mb-5">Menü</p>
-          <ul className="space-y-3 text-[12px] text-[color:var(--ink-soft)]">
-            <li><a href="#about" className="hover:text-[color:var(--ink)] transition-colors">Über mich</a></li>
-            <li><a href="#looks" className="hover:text-[color:var(--ink)] transition-colors">Hochzeitslooks</a></li>
-            <li><a href="#ablauf" className="hover:text-[color:var(--ink)] transition-colors">Ablauf</a></li>
-            <li><a href="#leistungen" className="hover:text-[color:var(--ink)] transition-colors">Leistungen</a></li>
-            <li><a href="#faq" className="hover:text-[color:var(--ink)] transition-colors">FAQ</a></li>
+          <p className="text-[10px] tracking-[0.3em] uppercase text-white/50 mb-5">Menü</p>
+          <ul className="space-y-3 text-[12px] text-white/75">
+            <li><a href="#about" className="hover:text-white transition-colors">Über mich</a></li>
+            <li><a href="#looks" className="hover:text-white transition-colors">Hochzeitslooks</a></li>
+            <li><a href="#ablauf" className="hover:text-white transition-colors">Ablauf</a></li>
+            <li><a href="#leistungen" className="hover:text-white transition-colors">Leistungen</a></li>
+            <li><a href="#faq" className="hover:text-white transition-colors">FAQ</a></li>
           </ul>
         </div>
 
       </div>
 
-      <div className="border-t border-[color:var(--rose)]/20">
-        <div className="mx-auto max-w-6xl px-6 sm:px-10 py-5 text-[11px] text-[color:var(--ink-soft)] flex flex-col sm:flex-row gap-2 justify-between">
+      <div className="border-t border-white/20">
+        <div className="mx-auto max-w-6xl px-6 sm:px-10 py-5 text-[11px] text-white/50 flex flex-col sm:flex-row gap-2 justify-between">
           <p>© {new Date().getFullYear()} {BRAND_NAME} · Alle Rechte vorbehalten.</p>
           <p>
             Webdesign by{" "}
@@ -96,7 +96,7 @@ export function Footer() {
               href="https://javera-studio.at"
               target="_blank"
               rel="noopener noreferrer"
-              className="tracking-[0.12em] uppercase hover:text-[color:var(--ink)] transition-colors"
+              className="tracking-[0.12em] uppercase hover:text-white transition-colors"
             >
               JAVERA STUDIO
             </a>
