@@ -23,7 +23,7 @@ const reviews = [
 
 export function Reviews() {
   return (
-    <section id="stimmen" className="py-16 md:py-24">
+    <section id="stimmen" className="pt-[45px] pb-16 md:pt-[67px] md:pb-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center mb-12">
