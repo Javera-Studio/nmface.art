@@ -6,7 +6,7 @@ export function Hero() {
     <section id="top" className="relative h-screen min-h-[680px] w-full overflow-hidden">
       <style>{`
         .hero-img { object-position: right 20%; }
-        @media (max-width: 767px) { .hero-img { object-position: 80% 40%; } }
+        @media (max-width: 767px) { .hero-img { object-position: 80% 20%; } }
       `}</style>
       <img
         src={heroImg}
