@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-bride.jpg";
+import heroImg from "@/assets/hero-bride.png";
 import { WHATSAPP_URL } from "@/lib/contact";
 
 export function Hero() {
@@ -8,7 +8,7 @@ export function Hero() {
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
         className="absolute inset-0 h-full w-full object-cover"
-        style={{ objectPosition: "center 25%", filter: "brightness(1.12)" }}
+        style={{ objectPosition: "right center", filter: "brightness(1.12)" }}
       />
 
       {/* Warm soft overlay */}

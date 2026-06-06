@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/bridal/Navbar";
 import { Hero } from "@/components/bridal/Hero";
+import { BannerImage } from "@/components/bridal/BannerImage";
 import { About } from "@/components/bridal/About";
 import { Looks } from "@/components/bridal/Looks";
 import { Ablauf } from "@/components/bridal/Ablauf";
@@ -10,6 +11,9 @@ import { Faq } from "@/components/bridal/Faq";
 import { CtaFinal } from "@/components/bridal/CtaFinal";
 import { Footer } from "@/components/bridal/Footer";
 import { ScriptDivider } from "@/components/bridal/ScriptDivider";
+import stock1 from "@/assets/stock1.png";
+import stock2 from "@/assets/stock2.png";
+import stock3 from "@/assets/stock3.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,14 +42,17 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <BannerImage src={stock1} alt="Braut in romantischer Atmosphäre" />
         <About />
         <ScriptDivider text="every bride, a story" />
         <Looks />
+        <BannerImage src={stock2} alt="Hochzeitsatmosphäre vor dem Ablauf" />
         <Ablauf />
         <ScriptDivider text="with love & care" />
         <Leistungen />
         <Reviews />
         <Faq />
+        <BannerImage src={stock3} alt="Romantischer Abschluss" fadeBottom />
         <CtaFinal />
       </main>
       <Footer />
