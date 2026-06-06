@@ -22,7 +22,7 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-6 sm:px-10 h-[70px] flex items-center justify-between gap-6">
         <a href="#top" aria-label={BRAND_NAME}>
-          <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-16 w-auto" />
+          <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-[77px] w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-9 text-[12px] tracking-[0.22em] uppercase">
           {links.map((l) => (
