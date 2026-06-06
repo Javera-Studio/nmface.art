@@ -18,13 +18,14 @@ export function About() {
           </p>
         </Reveal>
         <div className="grid md:grid-cols-[5fr_7fr] gap-8 md:gap-10 items-center">
-        <ImageReveal>
+        <ImageReveal className="w-[80%] md:w-[80%]">
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
               src={portrait}
               alt="Nermina – Brautstylistin"
               loading="lazy"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover scale-[1.2]"
+              style={{ transformOrigin: "center top" }}
             />
           </div>
         </ImageReveal>
