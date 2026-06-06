@@ -2,9 +2,9 @@ import portrait from "@/assets/about-nermina.png";
 import { Reveal } from "@/components/bali/Reveal";
 
 const facts = [
-  "Jahrgang 1998",
   "Brautstylistin im Raum Heilbronn",
   "Natürliche Hair & Make-up Looks",
+  "Liebe zum Detail",
 ];
 
 export function About() {
