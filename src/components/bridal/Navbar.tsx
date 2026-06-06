@@ -6,7 +6,7 @@ const links = [
   { href: "#looks", label: "Hochzeitslooks" },
   { href: "#ablauf", label: "Ablauf" },
   { href: "#leistungen", label: "Leistungen" },
-  { href: "#stimmen", label: "Stimmen" },
+  { href: "#stimmen", label: "Bewertungen" },
   { href: "#faq", label: "FAQ" },
 ];
 
