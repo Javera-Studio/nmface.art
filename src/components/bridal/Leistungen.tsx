@@ -42,7 +42,10 @@ export function Leistungen() {
           {services.map((s, i) => (
             <Reveal key={s.title} delay={i * 60}>
               <div className="grid md:grid-cols-12 gap-6 py-8 md:py-10 items-baseline">
-                <h3 className="md:col-span-4 font-display text-2xl md:text-3xl text-[color:var(--ink)]">
+                <span className="hidden md:block md:col-span-1 font-display text-sm text-[color:var(--rose)]/60 tracking-widest pt-1">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <h3 className="md:col-span-3 font-display text-2xl md:text-3xl text-[color:var(--ink)]">
                   {s.title}
                 </h3>
                 <p className="md:col-span-8 text-[color:var(--ink-soft)] leading-relaxed">
