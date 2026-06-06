@@ -11,13 +11,13 @@ const reviews = [
     quote:
       "Vom ersten Gespräch bis zum letzten Pinselstrich – alles war so persönlich, so warm, so professionell. Sie hat genau verstanden, was ich mir gewünscht habe.",
     name: "Marlene",
-    place: "Gartenhochzeit, Wien",
+    place: "Gartenhochzeit, Heilbronn",
   },
   {
     quote:
       "Das Probestyling war ein Highlight für sich. Am Hochzeitstag fühlte sich alles vertraut, leicht und unaufgeregt an. Genau das hatte ich mir gewünscht.",
     name: "Sophie",
-    place: "Standesamt & Feier, Wien",
+    place: "Standesamt & Feier, Heilbronn",
   },
 ];
 

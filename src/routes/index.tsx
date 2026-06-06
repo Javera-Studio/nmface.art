@@ -14,17 +14,17 @@ import { ScriptDivider } from "@/components/bridal/ScriptDivider";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nermina Bridal · Natürliches Brautstyling in Wien" },
+      { title: "NM Faceart | Natürliches Brautstyling in Heilbronn" },
       {
         name: "description",
         content:
-          "Mobiles Brautstyling in Wien: individuelle Beratung, Probetermin und persönliche Begleitung für deinen schönsten Tag. Frisur, Make-up und Gästestylings von Nermina.",
+          "Natürliches Brautstyling, Brautfrisuren und Make-up für deinen Hochzeitstag. Mobile Brautstylings in Heilbronn und Umgebung.",
       },
-      { property: "og:title", content: "Nermina Bridal · Natürliches Brautstyling in Wien" },
+      { property: "og:title", content: "NM Faceart | Bridal Styling" },
       {
         property: "og:description",
         content:
-          "Romantisches, zeitloses Brautstyling in Wien – Frisur, Make-up und Begleitung für deinen Hochzeitstag.",
+          "Zeitlose Brautfrisuren und natürliches Braut-Make-up für deinen besonderen Tag.",
       },
       { property: "og:type", content: "website" },
     ],
