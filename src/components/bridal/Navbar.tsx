@@ -24,7 +24,7 @@ export function Navbar() {
           boxShadow: "0 2px 16px 0 rgba(95, 85, 84, 0.13)",
         }}
       >
-        <div className="mx-auto max-w-7xl px-6 sm:px-10 h-[70px] flex items-center justify-between gap-6">
+        <div className="mx-auto max-w-7xl px-6 sm:px-10 h-[60px] md:h-[70px] flex items-center justify-between gap-6">
           <a href="#top" aria-label={BRAND_NAME}>
             <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-[89px] md:h-[117px] w-auto" />
           </a>
@@ -76,7 +76,7 @@ export function Navbar() {
 
       {/* Mobile dropdown menu */}
       <div
-        className={`fixed top-[70px] left-0 right-0 z-50 md:hidden transition-all duration-300 ${open ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none"}`}
+        className={`fixed top-[60px] left-0 right-0 z-50 md:hidden transition-all duration-300 ${open ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none"}`}
         style={{ backgroundColor: "rgba(200, 177, 182, 0.97)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}
       >
         <nav className="flex flex-col gap-5 px-8 pt-6 pb-5">
