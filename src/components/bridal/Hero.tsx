@@ -7,8 +7,13 @@ export function Hero() {
       <img
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
-        className="absolute inset-0 h-full w-full object-cover"
-        style={{ objectPosition: "95% top", filter: "brightness(1.12)" }}
+        className="absolute object-cover"
+        style={{
+          top: "-7%", left: "-7%",
+          width: "114%", height: "114%",
+          objectPosition: "95% top",
+          filter: "brightness(1.12)",
+        }}
       />
 
       {/* Warm soft overlay */}
