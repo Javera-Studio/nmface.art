@@ -6,6 +6,7 @@ import { Looks } from "@/components/bridal/Looks";
 import { BannerImage } from "@/components/bridal/BannerImage";
 import { Ablauf } from "@/components/bridal/Ablauf";
 import { Leistungen } from "@/components/bridal/Leistungen";
+import { Haarschmuck } from "@/components/bridal/Haarschmuck";
 import { Reviews } from "@/components/bridal/Reviews";
 import { Faq } from "@/components/bridal/Faq";
 import { CtaFinal } from "@/components/bridal/CtaFinal";
@@ -45,6 +46,7 @@ function Index() {
         <BannerImage src={stock4} alt="Brautstrauß und Schleier" height="h-[60vh]" />
         <Ablauf />
         <Leistungen />
+        <Haarschmuck />
         <Reviews />
         <Faq />
         <BannerImage src={stock3} alt="Romantischer Hochzeitsbogen" fadeBottom />
