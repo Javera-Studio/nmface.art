@@ -62,13 +62,13 @@ export function Hero() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full bg-white/90 text-[color:var(--ink)] h-12 px-8 text-[13px] tracking-[0.16em] uppercase hover:bg-white transition-colors duration-500"
+                className="inline-flex items-center justify-center rounded-full bg-white/90 text-[color:var(--ink)] h-10 px-6 text-[10px] tracking-[0.16em] uppercase hover:bg-white transition-colors duration-500"
               >
                 Brautstyling anfragen
               </a>
               <a
                 href="#ablauf"
-                className="inline-flex items-center justify-center rounded-full border border-white/40 text-white h-12 px-8 text-[13px] tracking-[0.16em] uppercase hover:border-white/80 transition-colors duration-500"
+                className="inline-flex items-center justify-center rounded-full border border-white/40 text-white h-10 px-6 text-[10px] tracking-[0.16em] uppercase hover:border-white/80 transition-colors duration-500"
               >
                 Ablauf ansehen
               </a>
