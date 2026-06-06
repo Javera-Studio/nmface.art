@@ -1,5 +1,6 @@
 import portrait from "@/assets/about-nermina.png";
 import { Reveal } from "@/components/bali/Reveal";
+import { ImageReveal } from "@/components/bridal/ImageReveal";
 
 const facts = [
   "Brautstylistin im Raum Heilbronn",
@@ -17,7 +18,7 @@ export function About() {
           </p>
         </Reveal>
         <div className="grid md:grid-cols-[5fr_7fr] gap-8 md:gap-10 items-center">
-        <Reveal>
+        <ImageReveal>
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
               src={portrait}
@@ -26,7 +27,7 @@ export function About() {
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
-        </Reveal>
+        </ImageReveal>
         <Reveal delay={120}>
           <p className="font-script text-[38px] md:text-[64px] leading-none text-[color:var(--rose)] mb-2">
             Hi, ich bin Nermina

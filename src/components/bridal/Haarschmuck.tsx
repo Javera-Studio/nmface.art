@@ -1,5 +1,6 @@
 import haarschmuckImg from "@/assets/haarschmuck.png";
 import { Reveal } from "@/components/bali/Reveal";
+import { ImageReveal } from "@/components/bridal/ImageReveal";
 
 export function Haarschmuck() {
   return (
@@ -19,14 +20,14 @@ export function Haarschmuck() {
             Auf Wunsch kannst du ausgewählten Haarschmuck für deinen Hochzeitstag mieten oder erwerben. Gemeinsam finden wir beim Probetermin das Accessoire, das perfekt zu deinem Stil, Kleid und deiner Frisur passt.
           </p>
         </Reveal>
-        <Reveal delay={80}>
+        <ImageReveal delay={80}>
           <img
             src={haarschmuckImg}
             alt="Haarschmuck für Bräute"
             loading="lazy"
             className="w-full h-auto rounded-2xl"
           />
-        </Reveal>
+        </ImageReveal>
       </div>
     </section>
   );

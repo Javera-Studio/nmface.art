@@ -1,4 +1,5 @@
 import { INSTAGRAM_URL } from "@/lib/contact";
+import { ImageReveal } from "@/components/bridal/ImageReveal";
 import haar1 from "@/assets/haar1.jpg";
 import haar2 from "@/assets/haar2.jpg";
 import haar3 from "@/assets/haar3.jpg";
@@ -45,7 +46,7 @@ export function Looks() {
         {/* Hairstyle grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {hairImages.map((img, i) => (
-            <Reveal key={i} delay={i * 60}>
+            <ImageReveal key={i} delay={i * 70}>
               <div className="relative aspect-[3/4] overflow-hidden group">
                 <img
                   src={img.src}
@@ -54,7 +55,7 @@ export function Looks() {
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1400ms] group-hover:scale-[1.03]"
                 />
               </div>
-            </Reveal>
+            </ImageReveal>
           ))}
         </div>
 
@@ -73,7 +74,7 @@ export function Looks() {
         {/* Makeup grid */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
           {makeupImages.map((img, i) => (
-            <Reveal key={i} delay={i * 80}>
+            <ImageReveal key={i} delay={i * 90}>
               <div className="relative aspect-[3/4] overflow-hidden group">
                 <img
                   src={img.src}
@@ -82,7 +83,7 @@ export function Looks() {
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1400ms] group-hover:scale-[1.03]"
                 />
               </div>
-            </Reveal>
+            </ImageReveal>
           ))}
         </div>
 

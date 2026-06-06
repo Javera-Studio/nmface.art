@@ -43,7 +43,7 @@ function Index() {
         <Hero />
         <About />
         <Looks />
-        <BannerImage src={stock4} alt="Brautstrauß und Schleier" height="h-[60vh]" />
+        <BannerImage src={stock4} alt="Brautstrauß und Schleier" height="h-[60vh]" fadeTop fadeBottom />
         <Ablauf />
         <Leistungen />
         <Haarschmuck />
