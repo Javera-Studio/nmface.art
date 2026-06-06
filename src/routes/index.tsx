@@ -42,9 +42,7 @@ function Index() {
         <Hero />
         <About />
         <Looks />
-        <div className="py-16 md:py-24">
-          <BannerImage src={stock4} alt="Brautstrauß und Schleier" rounded height="h-[55vh]" />
-        </div>
+        <BannerImage src={stock4} alt="Brautstrauß und Schleier" height="h-[60vh]" />
         <Ablauf />
         <Leistungen />
         <Reviews />
