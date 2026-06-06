@@ -29,6 +29,9 @@ export function Faq() {
       <div className="mx-auto max-w-4xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center mb-16">
+            <p className="font-script text-[28px] md:text-[34px] leading-none mb-4" style={{ color: "var(--script-rose)" }}>
+              good to know
+            </p>
             <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">
               Häufige Fragen
             </p>
