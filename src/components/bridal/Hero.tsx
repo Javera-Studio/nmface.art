@@ -8,11 +8,14 @@ export function Hero() {
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
         className="absolute inset-0 h-full w-full object-cover"
-        style={{ objectPosition: "88% top", filter: "brightness(1.12)" }}
+        style={{ objectPosition: "95% top", filter: "brightness(1.12)" }}
       />
 
       {/* Warm soft overlay */}
       <div className="absolute inset-0" style={{ backgroundColor: "rgba(255, 245, 240, 0.15)" }} />
+
+      {/* Subtle left-side gradient behind headline text */}
+      <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(245, 238, 228, 0.38) 0%, rgba(245, 238, 228, 0.18) 45%, transparent 70%)" }} />
 
       {/* Minimal bottom gradient for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
