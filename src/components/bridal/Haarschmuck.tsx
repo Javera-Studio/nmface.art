@@ -20,14 +20,12 @@ export function Haarschmuck() {
           </p>
         </Reveal>
         <Reveal delay={80}>
-          <div className="relative h-[240px] md:h-[280px] w-full overflow-hidden rounded-2xl">
-            <img
-              src={haarschmuckImg}
-              alt="Haarschmuck für Bräute"
-              loading="lazy"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
+          <img
+            src={haarschmuckImg}
+            alt="Haarschmuck für Bräute"
+            loading="lazy"
+            className="w-full h-auto rounded-2xl"
+          />
         </Reveal>
       </div>
     </section>
