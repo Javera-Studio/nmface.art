@@ -39,7 +39,7 @@ export function Hero() {
           <div className="max-w-2xl space-y-5">
             <p
               className="font-script text-[44px] sm:text-[54px] leading-none"
-              style={{ color: "#CFAFB7" }}
+              style={{ color: "#7a4f4f", textShadow: "0 1px 8px rgba(255,255,255,0.4)" }}
             >
               you are beautiful
             </p>

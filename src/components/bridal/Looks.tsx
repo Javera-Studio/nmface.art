@@ -34,7 +34,7 @@ export function Looks() {
         {/* Section header */}
         <Reveal>
           <div className="max-w-2xl mb-10 md:mb-14">
-            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#CFAFB7" }}>
+            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#9c7272" }}>
               timeless bridal beauty
             </p>
             <h2 className="font-display text-[36px] md:text-[52px] leading-[1.1] text-[color:var(--ink)]">
@@ -92,7 +92,7 @@ export function Looks() {
           <div className="text-center max-w-2xl mx-auto pt-16 md:pt-24">
             <p
               className="font-script text-[38px] md:text-[46px] leading-none mb-6"
-              style={{ color: "#CFAFB7" }}
+              style={{ color: "#9c7272" }}
             >
               more than just a hairstyle
             </p>

@@ -13,7 +13,7 @@ export function About() {
     <section id="about" className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
-          <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#CFAFB7" }}>
+          <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#9c7272" }}>
             so nice to meet you
           </p>
         </Reveal>

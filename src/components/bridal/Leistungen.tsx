@@ -29,7 +29,7 @@ export function Leistungen() {
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center max-w-2xl mx-auto mb-12 md:mb-20">
-            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#CFAFB7" }}>
+            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#9c7272" }}>
               everything you need
             </p>
             <h2 className="font-display text-[36px] md:text-[52px] leading-[1.1] text-[color:var(--ink)]">

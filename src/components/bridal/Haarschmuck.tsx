@@ -9,7 +9,7 @@ export function Haarschmuck() {
         <Reveal>
           <p
             className="font-script text-[38px] md:text-[46px] leading-none mb-6"
-            style={{ color: "#CFAFB7" }}
+            style={{ color: "#9c7272" }}
           >
             the finishing touch
           </p>

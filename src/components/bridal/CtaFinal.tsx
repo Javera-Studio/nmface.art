@@ -6,7 +6,7 @@ export function CtaFinal() {
       <div className="mx-auto max-w-3xl px-6 text-center">
         <p
           className="font-script text-[46px] md:text-[60px] leading-none mb-8"
-          style={{ color: "#CFAFB7" }}
+          style={{ color: "#9c7272" }}
         >
           let's create your dream look
         </p>

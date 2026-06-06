@@ -31,7 +31,7 @@ export function Ablauf() {
           <div className="max-w-2xl mb-12 md:mb-16">
             <p
               className="font-script text-[38px] md:text-[46px] leading-none mb-6"
-              style={{ color: "#CFAFB7" }}
+              style={{ color: "#9c7272" }}
             >
               your bridal journey
             </p>

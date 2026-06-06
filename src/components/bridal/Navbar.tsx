@@ -66,48 +66,38 @@ export function Navbar() {
         </div>
       </header>
 
-      {/* Mobile overlay menu */}
+      {/* Backdrop — closes menu on outside tap */}
+      {open && (
+        <div
+          className="fixed inset-0 z-[49] md:hidden"
+          onClick={() => setOpen(false)}
+        />
+      )}
+
+      {/* Mobile dropdown menu */}
       <div
-        className={`fixed inset-0 z-50 flex flex-col transition-opacity duration-300 md:hidden ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        className={`fixed top-[70px] left-0 right-0 z-50 md:hidden transition-all duration-300 ${open ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none"}`}
         style={{ backgroundColor: "rgba(200, 177, 182, 0.97)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}
       >
-        {/* Close button */}
-        <div className="flex justify-between items-center px-6 h-[70px]">
-          <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-[70px] w-auto" />
-          <button
-            onClick={() => setOpen(false)}
-            aria-label="Menü schließen"
-            className="w-9 h-9 flex items-center justify-center text-white"
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-              <line x1="3" y1="3" x2="17" y2="17" />
-              <line x1="17" y1="3" x2="3" y2="17" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Links */}
-        <nav className="flex flex-col items-center justify-center flex-1 gap-7">
+        <nav className="flex flex-col gap-5 px-8 pt-6 pb-5">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="font-display text-[28px] text-white/90 hover:text-white transition-colors tracking-wide"
+              className="font-display text-[22px] text-white/90 hover:text-white transition-colors tracking-wide"
             >
               {l.label}
             </a>
           ))}
         </nav>
-
-        {/* Bottom CTA */}
-        <div className="px-8 pb-10">
+        <div className="px-8 pb-7">
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
-            className="block w-full text-center rounded-full bg-white py-4 text-[12px] tracking-[0.2em] uppercase transition-colors hover:bg-white/90"
+            className="block w-full text-center rounded-full bg-white py-3.5 text-[12px] tracking-[0.2em] uppercase transition-colors hover:bg-white/90"
             style={{ color: "#5F5552" }}
           >
             Brautstyling anfragen

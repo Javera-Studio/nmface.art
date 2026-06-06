@@ -29,7 +29,7 @@ export function Faq() {
       <div className="mx-auto max-w-4xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center mb-16">
-            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#CFAFB7" }}>
+            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#9c7272" }}>
               good to know
             </p>
             <h2 className="font-display text-[36px] md:text-[48px] leading-[1.1] text-[color:var(--ink)]">
