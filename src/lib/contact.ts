@@ -5,3 +5,4 @@ export const STUDIO_LOCATION = "Heilbronn & Umgebung · Mobiler Service";
 export const BRAND_NAME = "NM Faceart";
 export const STYLIST_NAME = "Nermina";
 export const CONTACT_EMAIL = "hallo@nermina-bridal.at";
+export const INSTAGRAM_URL = "https://www.instagram.com/nmface.art";

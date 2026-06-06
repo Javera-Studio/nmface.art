@@ -1,3 +1,4 @@
+import { INSTAGRAM_URL } from "@/lib/contact";
 import haar1 from "@/assets/haar1.jpg";
 import haar2 from "@/assets/haar2.jpg";
 import haar3 from "@/assets/haar3.jpg";
@@ -87,6 +88,35 @@ export function Looks() {
             </Reveal>
           ))}
         </div>
+
+        {/* Instagram closing block */}
+        <Reveal>
+          <div className="text-center max-w-2xl mx-auto pt-20 md:pt-28">
+            <p
+              className="font-script text-[38px] md:text-[46px] leading-none mb-6"
+              style={{ color: "#d5b8bf" }}
+            >
+              more than just a hairstyle
+            </p>
+            <h3 className="font-display text-[28px] md:text-[38px] leading-[1.15] text-[color:var(--ink)] mb-6">
+              Jeder Brautlook erzählt seine eigene Geschichte.
+            </h3>
+            <p className="text-[color:var(--ink-soft)] leading-relaxed mb-3">
+              Jede Braut ist einzigartig – deshalb steht für mich nicht nur die Frisur oder das Make-up im Mittelpunkt, sondern das Gesamtgefühl an deinem Hochzeitstag. Von natürlichen Bridal Looks bis hin zu romantischen Hochsteckfrisuren begleite ich meine Bräute mit viel Ruhe, Liebe zum Detail und einem Blick für das, was wirklich zu ihnen passt.
+            </p>
+            <p className="text-[color:var(--ink-soft)] leading-relaxed mb-10">
+              Noch mehr Einblicke in meine Arbeit, echte Brautstylings und Momente hinter den Kulissen findest du auf Instagram.
+            </p>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-[color:var(--rose)] text-[color:var(--ink)] h-12 px-8 text-[13px] tracking-[0.16em] uppercase hover:bg-[color:var(--rose)] hover:text-white transition-colors duration-500"
+            >
+              Mehr Brautlooks entdecken
+            </a>
+          </div>
+        </Reveal>
 
       </div>
     </section>
