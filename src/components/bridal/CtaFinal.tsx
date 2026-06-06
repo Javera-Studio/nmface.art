@@ -2,7 +2,7 @@ import { WHATSAPP_URL } from "@/lib/contact";
 
 export function CtaFinal() {
   return (
-    <section className="bg-[color:var(--blush)] py-24 md:py-32">
+    <section className="py-24 md:py-32">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <p
           className="font-script text-[36px] md:text-[48px] leading-none mb-6"
@@ -13,9 +13,6 @@ export function CtaFinal() {
         <h2 className="font-display text-[36px] sm:text-[48px] md:text-[60px] leading-[1.1] text-[color:var(--ink)]">
           Lass uns gemeinsam deinen perfekten Brautlook kreieren.
         </h2>
-        <p className="mt-6 text-[color:var(--ink-soft)] text-base md:text-lg leading-relaxed max-w-xl mx-auto">
-          Ich freue mich darauf, dich an einem der schönsten Tage deines Lebens begleiten zu dürfen.
-        </p>
         <div className="mt-10">
           <a
             href={WHATSAPP_URL}
