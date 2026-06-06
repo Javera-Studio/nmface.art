@@ -5,8 +5,8 @@ export function CtaFinal() {
     <section className="py-24 md:py-32">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <p
-          className="font-script text-[36px] md:text-[48px] leading-none mb-6"
-          style={{ color: "var(--script-rose)" }}
+          className="font-script text-[46px] md:text-[60px] leading-none mb-8"
+          style={{ color: "#d5b8bf" }}
         >
           let's create your dream look
         </p>

@@ -32,7 +32,7 @@ export function Looks() {
         {/* Section header */}
         <Reveal>
           <div className="max-w-2xl mb-10 md:mb-14">
-            <p className="font-script text-[28px] md:text-[34px] leading-none mb-3" style={{ color: "var(--script-rose)" }}>
+            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#d5b8bf" }}>
               timeless bridal beauty
             </p>
             <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">

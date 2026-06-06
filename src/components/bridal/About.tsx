@@ -12,7 +12,7 @@ export function About() {
     <section id="about" className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
-          <p className="font-script text-[28px] md:text-[34px] leading-none mb-10 md:mb-12" style={{ color: "var(--script-rose)" }}>
+          <p className="font-script text-[38px] md:text-[46px] leading-none mb-12 md:mb-14" style={{ color: "#d5b8bf" }}>
             so nice to meet you
           </p>
         </Reveal>

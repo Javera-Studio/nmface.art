@@ -7,8 +7,8 @@ export function Haarschmuck() {
       <div className="mx-auto max-w-4xl px-6 sm:px-10">
         <Reveal>
           <p
-            className="font-script text-[28px] md:text-[34px] leading-none mb-4"
-            style={{ color: "var(--script-rose)" }}
+            className="font-script text-[38px] md:text-[46px] leading-none mb-6"
+            style={{ color: "#d5b8bf" }}
           >
             the finishing touch
           </p>
