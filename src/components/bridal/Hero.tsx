@@ -27,6 +27,9 @@ export function Hero() {
       {/* Minimal bottom gradient for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
+      {/* Cream fade at bottom — blends into page background */}
+      <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[color:var(--cream)] to-transparent" />
+
       {/* Content — lower-left, directly on image */}
       <div className="absolute inset-0 flex items-end">
         <div className="w-full max-w-7xl mx-auto px-6 sm:px-8 pb-10 sm:pb-12 md:pb-16">

@@ -49,7 +49,7 @@ function Index() {
         <Haarschmuck />
         <Reviews />
         <Faq />
-        <BannerImage src={stock3} alt="Romantischer Hochzeitsbogen" fadeBottom />
+        <BannerImage src={stock3} alt="Romantischer Hochzeitsbogen" fadeTop fadeBottom />
         <CtaFinal />
       </main>
       <Footer />
