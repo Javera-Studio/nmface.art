@@ -7,10 +7,10 @@ import heroImg from "@/assets/hero-bride.jpg";
 import { Reveal } from "@/components/bali/Reveal";
 
 const items = [
-  { src: look1, alt: "Romantische Brautfrisur mit Blüten", span: "row-span-2" },
+  { src: look1, alt: "Romantische Brautfrisur mit Blüten", span: "row-span-2", overlay: "forever yours" },
   { src: look2, alt: "Sanftes Braut Make-up mit Schleier", span: "" },
   { src: heroImg, alt: "Braut im Sonnenuntergang", span: "" },
-  { src: look3, alt: "Lockere Brautwellen mit Haarschmuck", span: "row-span-2" },
+  { src: look3, alt: "Lockere Brautwellen mit Haarschmuck", span: "row-span-2", overlay: "soft & timeless" },
   { src: look5, alt: "Soft Glam Braut Make-up", span: "" },
   { src: look4, alt: "Eleganter Dutt mit Perlen", span: "" },
 ];
@@ -43,6 +43,14 @@ export function Looks() {
                   loading="lazy"
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1400ms] group-hover:scale-[1.04]"
                 />
+                {it.overlay && (
+                  <span
+                    className="pointer-events-none absolute bottom-6 left-6 font-script text-3xl md:text-4xl leading-none drop-shadow-[0_1px_8px_rgba(95,85,84,0.25)]"
+                    style={{ color: "var(--script-rose)" }}
+                  >
+                    {it.overlay}
+                  </span>
+                )}
               </div>
             </Reveal>
           ))}

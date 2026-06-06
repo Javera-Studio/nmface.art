@@ -9,6 +9,7 @@ import { Reviews } from "@/components/bridal/Reviews";
 import { Faq } from "@/components/bridal/Faq";
 import { CtaFinal } from "@/components/bridal/CtaFinal";
 import { Footer } from "@/components/bridal/Footer";
+import { ScriptDivider } from "@/components/bridal/ScriptDivider";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,8 +39,10 @@ function Index() {
       <main>
         <Hero />
         <About />
+        <ScriptDivider text="every bride, a story" />
         <Looks />
         <Ablauf />
+        <ScriptDivider text="with love & care" />
         <Leistungen />
         <Reviews />
         <Faq />
