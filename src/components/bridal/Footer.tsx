@@ -23,65 +23,72 @@ const WhatsAppIcon = ({ size = 15 }: { size?: number }) => (
 
 export function Footer() {
   return (
-    <footer style={{ backgroundColor: "rgba(200, 177, 182, 1)" }}>
+    <footer style={{ backgroundColor: "#c4aeb6" }}>
 
       {/* ── MOBILE LAYOUT ── */}
-      <div className="md:hidden px-6 pt-8 pb-6">
-
-        {/* Logo */}
-        <img src="/images/logotransparent.png" alt="NM Faceart" className="h-16 w-auto mb-3" />
-
-        {/* Tagline */}
-        <p className="text-[16px] text-white/75 leading-relaxed mb-6 max-w-[280px]">
-          Mobiles Brautstyling für moderne, romantische Bräute – mit Ruhe, Zeit und Persönlichkeit.
-        </p>
+      <div className="md:hidden px-6 pt-5 pb-5">
 
         {/* Kontakt */}
-        <p className="text-[14px] tracking-[0.38em] uppercase text-white/55 mb-3">Kontakt</p>
-        <ul className="space-y-2 text-[17px] text-white/80 mb-6">
-          <li className="text-[15px] text-white/60">Heilbronn &amp; Umgebung · Mobiler Service</li>
+        <p className="text-[11px] tracking-[0.44em] uppercase text-white mb-2.5">Kontakt</p>
+        <ul className="space-y-1.5 text-[14px] text-white mb-4">
+          <li className="text-[12px] text-white/65">Heilbronn &amp; Umgebung · Mobiler Service</li>
           <li>
-            <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-2.5 hover:text-white transition-colors">
-              <MailIcon size={18} />{CONTACT_EMAIL}
+            <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-2 hover:text-white/75 transition-colors">
+              <MailIcon size={17} />{CONTACT_EMAIL}
             </a>
           </li>
           <li>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-white transition-colors">
-              <InstagramIcon size={18} />@nmface.art
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white/75 transition-colors">
+              <InstagramIcon size={17} />@nmface.art
             </a>
           </li>
           <li>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-white transition-colors">
-              <WhatsAppIcon size={18} />Direkt kontaktieren
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white/75 transition-colors">
+              <WhatsAppIcon size={17} />Direkt kontaktieren
             </a>
           </li>
         </ul>
+
+        <div className="h-px bg-white/25 mb-4" />
 
         {/* Menü */}
-        <p className="text-[14px] tracking-[0.38em] uppercase text-white/55 mb-3">Menü</p>
-        <ul className="space-y-2 text-[17px] text-white/80 mb-8">
-          <li><a href="#about" className="hover:text-white transition-colors">Über mich</a></li>
-          <li><a href="#looks" className="hover:text-white transition-colors">Hochzeitslooks</a></li>
-          <li><a href="#ablauf" className="hover:text-white transition-colors">Ablauf</a></li>
-          <li><a href="#leistungen" className="hover:text-white transition-colors">Leistungen</a></li>
-          <li><a href="#faq" className="hover:text-white transition-colors">FAQ</a></li>
+        <p className="text-[11px] tracking-[0.44em] uppercase text-white mb-2.5">Menü</p>
+        <ul className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[14px] text-white mb-4">
+          <li><a href="#about" className="hover:text-white/75 transition-colors">Über mich</a></li>
+          <li><a href="#looks" className="hover:text-white/75 transition-colors">Hochzeitslooks</a></li>
+          <li><a href="#ablauf" className="hover:text-white/75 transition-colors">Ablauf</a></li>
+          <li><a href="#leistungen" className="hover:text-white/75 transition-colors">Leistungen</a></li>
+          <li><a href="#faq" className="hover:text-white/75 transition-colors">FAQ</a></li>
         </ul>
 
+        <div className="h-px bg-white/25 mb-3" />
+
         {/* Copyright */}
-        <div className="border-t border-white/20 pt-4 text-[12px] text-white/45 flex flex-col gap-1">
+        <div className="text-[11px] text-white/65 flex flex-col gap-0.5 mb-4">
           <p>© {new Date().getFullYear()} {BRAND_NAME} · Alle Rechte vorbehalten.</p>
           <p>
             Webdesign by{" "}
-            <a href="https://javera-studio.at" target="_blank" rel="noopener noreferrer" className="text-white/60 tracking-[0.14em] uppercase hover:text-white transition-colors">
+            <a href="https://javera-studio.at" target="_blank" rel="noopener noreferrer" className="text-white/85 tracking-[0.14em] uppercase hover:text-white transition-colors">
               JAVERA STUDIO
             </a>
           </p>
         </div>
+
+        {/* CTA Button */}
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full text-center rounded-full bg-white py-3 text-[11px] tracking-[0.22em] uppercase transition-colors hover:bg-white/90"
+          style={{ color: "#5F5552" }}
+        >
+          Brautstyling anfragen
+        </a>
       </div>
 
       {/* ── DESKTOP LAYOUT ── */}
       <div className="hidden md:block">
-        <div className="mx-auto max-w-6xl px-10 py-14 grid md:grid-cols-3 gap-12 md:gap-20">
+        <div className="mx-auto max-w-6xl px-10 py-14 grid md:grid-cols-3 gap-12 md:gap-20 text-white">
 
           {/* Col 1: Brand */}
           <div>
