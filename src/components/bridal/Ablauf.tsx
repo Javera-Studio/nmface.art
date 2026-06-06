@@ -25,10 +25,10 @@ const steps = [
 
 export function Ablauf() {
   return (
-    <section id="ablauf" className="py-28 md:py-40">
+    <section id="ablauf" className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
-          <div className="max-w-2xl mb-20 md:mb-28">
+          <div className="max-w-2xl mb-12 md:mb-16">
             <p
               className="font-script text-[36px] md:text-[44px] leading-none mb-4"
               style={{ color: "var(--script-rose)" }}

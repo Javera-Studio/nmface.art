@@ -9,8 +9,8 @@ const facts = [
 
 export function About() {
   return (
-    <section id="about" className="py-28 md:py-40">
-      <div className="mx-auto max-w-6xl px-6 sm:px-10 grid md:grid-cols-2 gap-16 md:gap-24 items-center">
+    <section id="about" className="py-16 md:py-24">
+      <div className="mx-auto max-w-6xl px-6 sm:px-10 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         <Reveal>
           <div className="relative aspect-[4/5] overflow-hidden">
             <img

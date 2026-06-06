@@ -21,11 +21,8 @@ export function Navbar() {
       }}
     >
       <div className="mx-auto max-w-7xl px-6 sm:px-10 h-20 flex items-center justify-between gap-6">
-        <a
-          href="#top"
-          className="font-display text-xl tracking-[0.08em] text-white"
-        >
-          {BRAND_NAME}
+        <a href="#top" aria-label={BRAND_NAME}>
+          <img src="/images/logo.png" alt={BRAND_NAME} className="h-10 w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-9 text-[12px] tracking-[0.22em] uppercase">
           {links.map((l) => (

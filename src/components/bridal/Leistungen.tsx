@@ -25,7 +25,7 @@ const services = [
 
 export function Leistungen() {
   return (
-    <section id="leistungen" className="bg-[color:var(--blush)] py-28 md:py-40">
+    <section id="leistungen" className="bg-[color:var(--blush)] py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center max-w-2xl mx-auto mb-20">

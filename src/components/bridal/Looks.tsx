@@ -26,12 +26,12 @@ const makeupImages = [
 
 export function Looks() {
   return (
-    <section id="looks" className="py-28 md:py-40">
+    <section id="looks" className="py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
 
         {/* Section header */}
         <Reveal>
-          <div className="max-w-2xl mb-16 md:mb-20">
+          <div className="max-w-2xl mb-10 md:mb-14">
             <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">
               Hochzeitslooks
             </p>
@@ -59,7 +59,7 @@ export function Looks() {
 
         {/* Make-up divider block */}
         <Reveal>
-          <div className="text-center max-w-2xl mx-auto py-24 md:py-32">
+          <div className="text-center max-w-2xl mx-auto py-14 md:py-20">
             <h3 className="font-display text-[28px] md:text-[38px] leading-[1.15] text-[color:var(--ink)] mb-6">
               Natürliches Braut-Make-up
             </h3>

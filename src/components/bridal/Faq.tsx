@@ -25,7 +25,7 @@ const faqs = [
 
 export function Faq() {
   return (
-    <section id="faq" className="bg-[color:var(--blush)] py-28 md:py-40">
+    <section id="faq" className="bg-[color:var(--blush)] py-16 md:py-24">
       <div className="mx-auto max-w-4xl px-6 sm:px-10">
         <Reveal>
           <div className="text-center mb-16">
