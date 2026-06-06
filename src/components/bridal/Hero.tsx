@@ -7,8 +7,12 @@ export function Hero() {
       <img
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute object-cover"
         style={{
+          top: "-7.5%",
+          left: "0",
+          width: "112%",
+          height: "115%",
           objectPosition: "right top",
           filter: "brightness(1.12)",
         }}
@@ -29,7 +33,7 @@ export function Hero() {
           <div className="max-w-2xl space-y-5">
             <p
               className="font-script text-[44px] sm:text-[54px] leading-none"
-              style={{ color: "#d5b8bf" }}
+              style={{ color: "#CFAFB7" }}
             >
               you are beautiful
             </p>
