@@ -19,6 +19,12 @@ export function Hero() {
             <h1 className="font-display text-[42px] sm:text-[56px] md:text-[64px] leading-[1.05] text-[color:var(--ink)]">
               Natürliches Brautstyling für deinen schönsten Tag
             </h1>
+            <p
+              className="font-script text-3xl md:text-4xl mt-5 leading-none"
+              style={{ color: "var(--script-rose)" }}
+            >
+              you are beautiful
+            </p>
             <p className="mt-7 text-base md:text-lg text-[color:var(--ink-soft)] leading-relaxed max-w-xl">
               Mobile Brautstylings mit individueller Beratung, Probetermin und persönlicher Begleitung für einen entspannten Hochzeitstag.
             </p>
