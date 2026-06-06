@@ -27,7 +27,7 @@ const makeupImages = [
 
 export function Looks() {
   return (
-    <section id="looks" className="py-16 md:py-24">
+    <section id="looks" className="pt-[51px] pb-16 md:pt-[77px] md:pb-24">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
 
         {/* Section header */}
