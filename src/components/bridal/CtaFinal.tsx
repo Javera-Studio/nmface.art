@@ -17,7 +17,7 @@ export function CtaFinal() {
             className="font-script text-4xl md:text-5xl mb-6 leading-none"
             style={{ color: "var(--script-rose)" }}
           >
-            your bridal moment
+            let's create your dream look
           </p>
           <h2 className="font-display text-[40px] sm:text-[56px] md:text-[68px] leading-[1.1] text-white">
             Lass uns gemeinsam deinen perfekten Brautlook kreieren.
@@ -32,7 +32,7 @@ export function CtaFinal() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-[color:var(--rose)] text-white h-14 px-10 text-[13px] tracking-[0.18em] uppercase hover:bg-white hover:text-[color:var(--ink)] transition-colors duration-500"
             >
-              Termin anfragen
+              Brautstyling anfragen
             </a>
           </div>
         </div>

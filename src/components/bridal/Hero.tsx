@@ -43,7 +43,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-white/90 text-[color:var(--ink)] h-12 px-8 text-[13px] tracking-[0.16em] uppercase hover:bg-white transition-colors duration-500"
               >
-                Termin anfragen
+                Brautstyling anfragen
               </a>
               <a
                 href="#ablauf"

@@ -42,7 +42,7 @@ export function Navbar() {
           className="inline-flex items-center justify-center rounded-full bg-white h-11 px-6 text-[13px] tracking-[0.12em] uppercase transition-colors duration-300 hover:bg-white/90"
           style={{ color: "#5F5552" }}
         >
-          Termin anfragen
+          Brautstyling anfragen
         </a>
       </div>
     </header>
