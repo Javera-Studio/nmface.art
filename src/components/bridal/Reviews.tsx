@@ -26,12 +26,17 @@ export function Reviews() {
     <section id="stimmen" className="py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
-          <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5 text-center">
-            Stimmen meiner Bräute
-          </p>
+          <div className="text-center mb-12">
+            <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#d5b8bf" }}>
+              kind words
+            </p>
+            <h2 className="font-display text-[36px] md:text-[52px] leading-[1.1] text-[color:var(--ink)]">
+              Was meine Bräute sagen.
+            </h2>
+          </div>
         </Reveal>
 
-        <div className="mt-12 grid md:grid-cols-3 gap-10 md:gap-14">
+        <div className="grid md:grid-cols-3 gap-10 md:gap-14">
           {reviews.map((r, i) => (
             <Reveal key={r.name} delay={i * 120}>
               <figure className="flex flex-col h-full">

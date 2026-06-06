@@ -36,9 +36,6 @@ export function Looks() {
             <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#d5b8bf" }}>
               timeless bridal beauty
             </p>
-            <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">
-              Hochzeitslooks
-            </p>
             <h2 className="font-display text-[36px] md:text-[52px] leading-[1.1] text-[color:var(--ink)]">
               Zeitlose Brautfrisuren und natürliches Braut-Make-up für deinen besonderen Tag.
             </h2>

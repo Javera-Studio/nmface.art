@@ -32,9 +32,6 @@ export function Faq() {
             <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#d5b8bf" }}>
               good to know
             </p>
-            <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">
-              Häufige Fragen
-            </p>
             <h2 className="font-display text-[36px] md:text-[48px] leading-[1.1] text-[color:var(--ink)]">
               Antworten auf das, was Bräute oft fragen.
             </h2>

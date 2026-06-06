@@ -30,7 +30,7 @@ export function Ablauf() {
         <Reveal>
           <div className="max-w-2xl mb-12 md:mb-16">
             <p
-              className="font-script text-[46px] md:text-[56px] leading-none mb-6"
+              className="font-script text-[38px] md:text-[46px] leading-none mb-6"
               style={{ color: "#d5b8bf" }}
             >
               your bridal journey
