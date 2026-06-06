@@ -28,7 +28,7 @@ export function About() {
           </div>
         </Reveal>
         <Reveal delay={120}>
-          <p className="font-script text-[52px] md:text-[64px] leading-none text-[color:var(--rose)] mb-2">
+          <p className="font-script text-[38px] md:text-[64px] leading-none text-[color:var(--rose)] mb-2">
             Hi, ich bin Nermina
           </p>
           <h2 className="font-display text-[18px] md:text-[22px] tracking-wide text-[color:var(--ink-soft)] mb-7">

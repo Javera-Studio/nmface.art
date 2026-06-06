@@ -28,7 +28,7 @@ export function Leistungen() {
     <section id="leistungen" className="bg-[color:var(--blush)] py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
-          <div className="text-center max-w-2xl mx-auto mb-20">
+          <div className="text-center max-w-2xl mx-auto mb-12 md:mb-20">
             <p className="font-script text-[38px] md:text-[46px] leading-none mb-6" style={{ color: "#d5b8bf" }}>
               everything you need
             </p>

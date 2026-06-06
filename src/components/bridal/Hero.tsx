@@ -35,7 +35,7 @@ export function Hero() {
             </p>
 
             <h1
-              className="font-display font-medium text-[44px] sm:text-[60px] md:text-[72px] leading-[1.04] text-white"
+              className="font-display font-medium text-[36px] sm:text-[60px] md:text-[72px] leading-[1.04] text-white"
               style={{ textShadow: "0 2px 16px rgba(60, 45, 40, 0.35)" }}
             >
               Natürliches Brautstyling<br />
