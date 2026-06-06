@@ -30,7 +30,7 @@ export function Navbar() {
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-9 text-[12px] tracking-[0.22em] uppercase">
+          <nav className="hidden md:flex items-center gap-9 text-[10px] tracking-[0.22em] uppercase">
             {links.map((l) => (
               <a
                 key={l.href}
@@ -47,7 +47,7 @@ export function Navbar() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center justify-center rounded-full bg-white h-11 px-6 text-[13px] tracking-[0.12em] uppercase transition-colors duration-300 hover:bg-white/90"
+            className="hidden sm:inline-flex items-center justify-center rounded-full bg-white h-11 px-6 text-[10px] tracking-[0.12em] uppercase transition-colors duration-300 hover:bg-white/90"
             style={{ color: "#5F5552" }}
           >
             Brautstyling anfragen
