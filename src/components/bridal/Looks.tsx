@@ -91,7 +91,7 @@ export function Looks() {
 
         {/* Instagram closing block */}
         <Reveal>
-          <div className="text-center max-w-2xl mx-auto pt-20 md:pt-28">
+          <div className="text-center max-w-2xl mx-auto pt-16 md:pt-24">
             <p
               className="font-script text-[38px] md:text-[46px] leading-none mb-6"
               style={{ color: "#d5b8bf" }}

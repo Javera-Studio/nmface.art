@@ -2,7 +2,7 @@ import { WHATSAPP_URL } from "@/lib/contact";
 
 export function CtaFinal() {
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-16 md:py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <p
           className="font-script text-[46px] md:text-[60px] leading-none mb-8"
