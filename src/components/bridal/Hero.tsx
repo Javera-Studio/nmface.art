@@ -28,7 +28,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
       {/* Cream fade at bottom — blends into page background */}
-      <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[color:var(--cream)] to-transparent" />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(250,248,245,0.65) 0%, transparent 13%)" }} />
 
       {/* Content — lower-left, directly on image */}
       <div className="absolute inset-0 flex items-end">
