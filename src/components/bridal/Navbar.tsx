@@ -26,7 +26,7 @@ export function Navbar() {
       >
         <div className="mx-auto max-w-7xl px-6 sm:px-10 h-[70px] flex items-center justify-between gap-6">
           <a href="#top" aria-label={BRAND_NAME}>
-            <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-[89px] md:h-[102px] w-auto" />
+            <img src="/images/logotransparent.png" alt={BRAND_NAME} className="h-[89px] md:h-[117px] w-auto" />
           </a>
 
           {/* Desktop nav */}

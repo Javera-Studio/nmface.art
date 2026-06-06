@@ -60,7 +60,7 @@ function Index() {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-0 left-0 right-0 z-40 md:hidden flex items-center justify-center h-11 text-[11px] tracking-[0.22em] uppercase text-white"
+        className="fixed bottom-0 left-0 right-0 z-40 md:hidden flex items-center justify-center h-11 text-[10px] tracking-[0.18em] uppercase text-white"
         style={{ backgroundColor: "rgba(200,177,182,0.93)", backdropFilter: "blur(10px)", WebkitBackdropFilter: "blur(10px)" }}
       >
         Brautstyling anfragen

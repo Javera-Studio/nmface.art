@@ -49,18 +49,6 @@ export function Footer() {
           </li>
         </ul>
 
-        <div className="h-px bg-white/25 mb-4" />
-
-        {/* Menü */}
-        <p className="text-[11px] tracking-[0.44em] uppercase text-white mb-2.5">Menü</p>
-        <ul className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[14px] text-white mb-4">
-          <li><a href="#about" className="hover:text-white/75 transition-colors">Über mich</a></li>
-          <li><a href="#looks" className="hover:text-white/75 transition-colors">Hochzeitslooks</a></li>
-          <li><a href="#ablauf" className="hover:text-white/75 transition-colors">Ablauf</a></li>
-          <li><a href="#leistungen" className="hover:text-white/75 transition-colors">Leistungen</a></li>
-          <li><a href="#faq" className="hover:text-white/75 transition-colors">FAQ</a></li>
-        </ul>
-
         <div className="h-px bg-white/25 mb-3" />
 
         {/* Copyright */}
@@ -92,7 +80,7 @@ export function Footer() {
 
           {/* Col 1: Brand */}
           <div>
-            <img src="/images/logotransparent.png" alt="NM Faceart" className="h-[120px] w-auto mb-5" />
+            <img src="/images/logotransparent.png" alt="NM Faceart" className="h-[138px] w-auto mb-5" />
             <p className="text-[14px] text-white/70 max-w-[230px] leading-relaxed">
               Mobiles Brautstyling für moderne, romantische Bräute – mit Ruhe, Zeit und Persönlichkeit.
             </p>
