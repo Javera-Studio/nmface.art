@@ -25,8 +25,8 @@ export function Hero() {
         <div className="w-full max-w-7xl mx-auto px-6 sm:px-12 pb-16 sm:pb-20 md:pb-24">
           <div className="max-w-2xl space-y-5">
             <p
-              className="font-script text-[28px] sm:text-[34px] leading-none"
-              style={{ color: "var(--script-rose)" }}
+              className="font-script text-[36px] sm:text-[44px] leading-none"
+              style={{ color: "rgba(180, 148, 156, 0.88)" }}
             >
               you are beautiful
             </p>
