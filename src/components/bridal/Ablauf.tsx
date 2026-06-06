@@ -4,22 +4,22 @@ const steps = [
   {
     n: "01",
     title: "Terminanfrage",
-    text: "Du meldest dich per WhatsApp oder E-Mail. Ich beantworte deine Fragen und prüfe meine Verfügbarkeit für deinen Hochzeitstag.",
+    text: "Sende mir deine Anfrage mit Hochzeitsdatum, Stylingwünschen und Veranstaltungsort. Anschließend prüfe ich meine Verfügbarkeit und melde mich persönlich bei dir zurück.",
   },
   {
     n: "02",
     title: "Kennenlerngespräch",
-    text: "In einem entspannten Gespräch lernen wir uns kennen. Wir sprechen über dein Kleid, deine Wünsche, deine Location und deine Vision.",
+    text: "In einem persönlichen Gespräch lernen wir uns kennen, besprechen deine Vorstellungen und klären alle wichtigen Fragen rund um dein Brautstyling.",
   },
   {
     n: "03",
     title: "Probetermin",
-    text: "Beim Probetermin gestalten wir gemeinsam deinen Brautlook in Ruhe. Hier hast du Zeit, alles zu fühlen, zu sehen und anzupassen.",
+    text: "Einige Wochen vor der Hochzeit gestalten wir gemeinsam deinen gewünschten Bridal Look und nehmen alle Anpassungen vor, damit am Hochzeitstag alles perfekt sitzt.",
   },
   {
     n: "04",
     title: "Hochzeitstag",
-    text: "Am großen Tag komme ich zu dir – mit Ruhe, einem vertrauten Ablauf und allem, was du brauchst, um dich rundum schön zu fühlen.",
+    text: "An deinem großen Tag komme ich zu deinem Wunschort und sorge für ein entspanntes, professionelles Styling, damit du dich rundum wohlfühlst und deinen Tag genießen kannst.",
   },
 ];
 
@@ -29,11 +29,14 @@ export function Ablauf() {
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
         <Reveal>
           <div className="max-w-2xl mb-20 md:mb-28">
-            <p className="text-[11px] tracking-[0.38em] uppercase text-[color:var(--rose)] mb-5">
-              Ablauf
+            <p
+              className="font-script text-[36px] md:text-[44px] leading-none mb-4"
+              style={{ color: "var(--script-rose)" }}
+            >
+              your bridal journey
             </p>
             <h2 className="font-display text-[36px] md:text-[52px] leading-[1.1] text-[color:var(--ink)]">
-              Vier ruhige Schritte zu deinem Brautlook.
+              So begleite ich dich auf dem Weg zu deinem großen Tag
             </h2>
           </div>
         </Reveal>
@@ -44,7 +47,7 @@ export function Ablauf() {
             <Reveal key={s.n} delay={i * 100}>
               <li className={`relative grid md:grid-cols-2 gap-8 md:gap-16 items-center ${i % 2 === 1 ? "md:[&>div:first-child]:order-2" : ""}`}>
                 <div className="pl-12 md:pl-0 md:text-right md:pr-16">
-                  <span className="font-display text-[64px] md:text-[88px] leading-none text-[color:var(--rose)]/70">
+                  <span className="font-display text-[64px] md:text-[88px] leading-none text-[color:var(--rose)]/60">
                     {s.n}
                   </span>
                 </div>
