@@ -1,18 +1,18 @@
-import look1 from "@/assets/look-1.jpg";
-import look2 from "@/assets/look-2.jpg";
-import look3 from "@/assets/look-3.jpg";
-import look4 from "@/assets/look-4.jpg";
-import look5 from "@/assets/look-5.jpg";
-import heroImg from "@/assets/hero-bride.jpg";
+import haar1 from "@/assets/haar1.jpg";
+import haar2 from "@/assets/haar2.jpg";
+import haar3 from "@/assets/haar3.jpg";
+import haar4 from "@/assets/haar4.jpg";
+import haar5 from "@/assets/haar5.jpg";
+import haar6 from "@/assets/haar6.jpg";
 import { Reveal } from "@/components/bali/Reveal";
 
 const items = [
-  { src: look1, alt: "Romantische Brautfrisur mit Blüten", span: "row-span-2", overlay: "forever yours" },
-  { src: look2, alt: "Sanftes Braut Make-up mit Schleier", span: "" },
-  { src: heroImg, alt: "Braut im Sonnenuntergang", span: "" },
-  { src: look3, alt: "Lockere Brautwellen mit Haarschmuck", span: "row-span-2", overlay: "soft & timeless" },
-  { src: look5, alt: "Soft Glam Braut Make-up", span: "" },
-  { src: look4, alt: "Eleganter Dutt mit Perlen", span: "" },
+  { src: haar1, alt: "Brautfrisur", span: "row-span-2", overlay: "forever yours" },
+  { src: haar2, alt: "Brautfrisur", span: "" },
+  { src: haar3, alt: "Brautfrisur", span: "" },
+  { src: haar4, alt: "Brautfrisur", span: "row-span-2", overlay: "soft & timeless" },
+  { src: haar5, alt: "Brautfrisur", span: "" },
+  { src: haar6, alt: "Brautfrisur", span: "" },
 ];
 
 export function Looks() {
