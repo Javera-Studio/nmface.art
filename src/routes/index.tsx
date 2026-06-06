@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { WHATSAPP_URL } from "@/lib/contact";
 import { Navbar } from "@/components/bridal/Navbar";
 import { Hero } from "@/components/bridal/Hero";
 import { About } from "@/components/bridal/About";
@@ -37,7 +38,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="min-h-screen bg-[color:var(--cream)] text-[color:var(--ink)]">
+    <div className="min-h-screen bg-[color:var(--cream)] text-[color:var(--ink)] pb-11 md:pb-0">
       <Navbar />
       <main>
         <Hero />
@@ -53,6 +54,17 @@ function Index() {
         <CtaFinal />
       </main>
       <Footer />
+
+      {/* Sticky mobile CTA */}
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-0 left-0 right-0 z-40 md:hidden flex items-center justify-center h-11 text-[11px] tracking-[0.22em] uppercase text-white"
+        style={{ backgroundColor: "rgba(200,177,182,0.93)", backdropFilter: "blur(10px)", WebkitBackdropFilter: "blur(10px)" }}
+      >
+        Brautstyling anfragen
+      </a>
     </div>
   );
 }
