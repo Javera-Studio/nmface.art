@@ -10,7 +10,13 @@ const facts = [
 export function About() {
   return (
     <section id="about" className="py-16 md:py-24">
-      <div className="mx-auto max-w-6xl px-6 sm:px-10 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+      <div className="mx-auto max-w-6xl px-6 sm:px-10">
+        <Reveal>
+          <p className="font-script text-[28px] md:text-[34px] leading-none mb-10 md:mb-12" style={{ color: "var(--script-rose)" }}>
+            so nice to meet you
+          </p>
+        </Reveal>
+        <div className="grid md:grid-cols-[5fr_7fr] gap-8 md:gap-10 items-center">
         <Reveal>
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
@@ -22,9 +28,6 @@ export function About() {
           </div>
         </Reveal>
         <Reveal delay={120}>
-          <p className="font-script text-[28px] md:text-[34px] leading-none mb-3" style={{ color: "var(--script-rose)" }}>
-            so nice to meet you
-          </p>
           <p className="font-script text-[52px] md:text-[64px] leading-none text-[color:var(--rose)] mb-2">
             Hi, ich bin Nermina
           </p>
@@ -43,6 +46,7 @@ export function About() {
             ))}
           </ul>
         </Reveal>
+        </div>
       </div>
     </section>
   );
