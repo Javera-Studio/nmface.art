@@ -5,18 +5,18 @@ export function Hero() {
   return (
     <section id="top" className="relative h-screen min-h-[680px] w-full overflow-hidden">
       <style>{`
-        .hero-img { object-position: right top; }
-        @media (max-width: 767px) { .hero-img { object-position: 80% top; } }
+        .hero-img { object-position: right 20%; }
+        @media (max-width: 767px) { .hero-img { object-position: 80% 40%; } }
       `}</style>
       <img
         src={heroImg}
         alt="Braut bei Sonnenuntergang in einem eleganten Hochzeitskleid"
         className="absolute object-cover hero-img"
         style={{
-          top: "-7.5%",
+          top: "0",
           left: "0",
           width: "112%",
-          height: "115%",
+          height: "120%",
           filter: "brightness(1.12)",
         }}
       />
