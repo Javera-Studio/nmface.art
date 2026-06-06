@@ -28,7 +28,7 @@ export function Footer() {
 
         {/* Col 1: Brand */}
         <div>
-          <img src="/images/logotransparent.png" alt="NM Faceart" className="h-20 w-auto mb-4" />
+          <img src="/images/logoneu.png" alt="NM Faceart" className="h-20 w-auto mb-4" />
           <p className="text-[12px] text-[color:var(--ink-soft)] max-w-[220px] leading-relaxed">
             Mobiles Brautstyling für moderne, romantische Bräute – mit Ruhe, Zeit und Persönlichkeit.
           </p>
