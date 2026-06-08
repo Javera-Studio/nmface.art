@@ -6,6 +6,7 @@ import look3 from "@/assets/look-3.jpg";
 import look4 from "@/assets/look-4.jpg";
 import look5 from "@/assets/look-5.jpg";
 import look6 from "@/assets/look-6.jpg";
+import look7 from "@/assets/look-7.jpg";
 import look8 from "@/assets/look-8.jpg";
 import look9 from "@/assets/look-9.jpg";
 import look10 from "@/assets/look-10.jpg";
@@ -22,6 +23,7 @@ const hairImages = [
 ];
 
 const makeupImages = [
+  { src: look7, alt: "Braut Make-up" },
   { src: look8, alt: "Braut Make-up" },
   { src: look9, alt: "Braut Make-up" },
   { src: look10, alt: "Braut Make-up" },
