@@ -6,9 +6,11 @@ import haar3 from "@/assets/haar3.jpg";
 import haar4 from "@/assets/haar4.jpg";
 import haar5 from "@/assets/haar5.jpg";
 import haar6 from "@/assets/haar6.jpg";
+import haar7 from "@/assets/haar7.jpg";
 import makeup1 from "@/assets/makeup1.jpg";
 import makeup2 from "@/assets/makeup2.jpg";
 import makeup3 from "@/assets/makeup3.jpg";
+import makeup4 from "@/assets/makeup4.jpg";
 import { Reveal } from "@/components/bali/Reveal";
 
 const hairImages = [
@@ -18,12 +20,14 @@ const hairImages = [
   { src: haar4, alt: "Brautfrisur" },
   { src: haar5, alt: "Brautfrisur" },
   { src: haar6, alt: "Brautfrisur" },
+  { src: haar7, alt: "Brautfrisur" },
 ];
 
 const makeupImages = [
   { src: makeup1, alt: "Braut Make-up" },
   { src: makeup2, alt: "Braut Make-up" },
   { src: makeup3, alt: "Braut Make-up" },
+  { src: makeup4, alt: "Braut Make-up" },
 ];
 
 export function Looks() {
@@ -72,7 +76,7 @@ export function Looks() {
         </Reveal>
 
         {/* Makeup grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6">
           {makeupImages.map((img, i) => (
             <ImageReveal key={i} delay={i * 90}>
               <div className="relative aspect-[3/4] overflow-hidden group">

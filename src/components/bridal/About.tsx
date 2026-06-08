@@ -1,4 +1,4 @@
-import portrait from "@/assets/about-nermina.png";
+import portrait from "@/assets/lena.jpg";
 import { Reveal } from "@/components/bali/Reveal";
 import { ImageReveal } from "@/components/bridal/ImageReveal";
 
