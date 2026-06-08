@@ -1,33 +1,31 @@
 import { INSTAGRAM_URL } from "@/lib/contact";
 import { ImageReveal } from "@/components/bridal/ImageReveal";
-import haar1 from "@/assets/haar1.jpg";
-import haar2 from "@/assets/haar2.jpg";
-import haar3 from "@/assets/haar3.jpg";
-import haar4 from "@/assets/haar4.jpg";
-import haar5 from "@/assets/haar5.jpg";
-import haar6 from "@/assets/haar6.jpg";
-import haar7 from "@/assets/haar7.jpg";
-import makeup1 from "@/assets/makeup1.jpg";
-import makeup2 from "@/assets/makeup2.jpg";
-import makeup3 from "@/assets/makeup3.jpg";
-import makeup4 from "@/assets/makeup4.jpg";
+import look1 from "@/assets/look-1.jpg";
+import look2 from "@/assets/look-2.jpg";
+import look3 from "@/assets/look-3.jpg";
+import look4 from "@/assets/look-4.jpg";
+import look5 from "@/assets/look-5.jpg";
+import look6 from "@/assets/look-6.jpg";
+import look8 from "@/assets/look-8.jpg";
+import look9 from "@/assets/look-9.jpg";
+import look10 from "@/assets/look-10.jpg";
+import look11 from "@/assets/look-11.jpg";
 import { Reveal } from "@/components/bali/Reveal";
 
 const hairImages = [
-  { src: haar1, alt: "Brautfrisur" },
-  { src: haar2, alt: "Brautfrisur" },
-  { src: haar3, alt: "Brautfrisur" },
-  { src: haar4, alt: "Brautfrisur" },
-  { src: haar5, alt: "Brautfrisur" },
-  { src: haar6, alt: "Brautfrisur" },
-  { src: haar7, alt: "Brautfrisur" },
+  { src: look1, alt: "Brautfrisur" },
+  { src: look2, alt: "Brautfrisur" },
+  { src: look3, alt: "Brautfrisur" },
+  { src: look4, alt: "Brautfrisur" },
+  { src: look5, alt: "Brautfrisur" },
+  { src: look6, alt: "Brautfrisur" },
 ];
 
 const makeupImages = [
-  { src: makeup1, alt: "Braut Make-up" },
-  { src: makeup2, alt: "Braut Make-up" },
-  { src: makeup3, alt: "Braut Make-up" },
-  { src: makeup4, alt: "Braut Make-up" },
+  { src: look8, alt: "Braut Make-up" },
+  { src: look9, alt: "Braut Make-up" },
+  { src: look10, alt: "Braut Make-up" },
+  { src: look11, alt: "Braut Make-up" },
 ];
 
 export function Looks() {
