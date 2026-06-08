@@ -3,21 +3,21 @@ import { Reveal } from "@/components/bali/Reveal";
 const reviews = [
   {
     quote:
-      "Nermina hat meinen Hochzeitstag in pure Ruhe verwandelt. Mein Brautlook war genau wie ich – nur schöner. Ich werde diesen Moment vor dem Spiegel nie vergessen.",
-    name: "Lea & Jonas",
+      "Lena hat meinen Hochzeitstag in pure Ruhe verwandelt. Mein Brautlook war genau wie ich – nur schöner. Ich werde diesen Moment vor dem Spiegel nie vergessen.",
+    name: "Emma & Lukas",
     place: "Schlosshochzeit, Niederösterreich",
   },
   {
     quote:
       "Vom ersten Gespräch bis zum letzten Pinselstrich – alles war so persönlich, so warm, so professionell. Sie hat genau verstanden, was ich mir gewünscht habe.",
-    name: "Marlene",
-    place: "Gartenhochzeit, Heilbronn",
+    name: "Katharina",
+    place: "Gartenhochzeit, Wien",
   },
   {
     quote:
       "Das Probestyling war ein Highlight für sich. Am Hochzeitstag fühlte sich alles vertraut, leicht und unaufgeregt an. Genau das hatte ich mir gewünscht.",
-    name: "Sophie",
-    place: "Standesamt & Feier, Heilbronn",
+    name: "Julia",
+    place: "Standesamt & Feier, Wien",
   },
 ];
 

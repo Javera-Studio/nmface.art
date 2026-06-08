@@ -3,7 +3,7 @@ import { Reveal } from "@/components/bali/Reveal";
 import { ImageReveal } from "@/components/bridal/ImageReveal";
 
 const facts = [
-  "Brautstylistin im Raum Heilbronn",
+  "Brautstylistin im Raum Wien",
   "Natürliche Hair & Make-up Looks",
   "Liebe zum Detail",
 ];
@@ -22,7 +22,7 @@ export function About() {
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
               src={portrait}
-              alt="Nermina – Brautstylistin"
+              alt="Lena – Brautstylistin"
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover scale-[1.2]"
               style={{ transformOrigin: "center top" }}
@@ -31,13 +31,13 @@ export function About() {
         </ImageReveal>
         <Reveal delay={120}>
           <p className="font-script text-[38px] md:text-[64px] leading-none text-[color:var(--rose)] mb-2">
-            Hi, ich bin Nermina
+            Hi, ich bin Lena
           </p>
           <h2 className="font-display text-[18px] md:text-[22px] tracking-wide text-[color:var(--ink-soft)] mb-7">
-            Deine Brautstylistin aus Heilbronn
+            Deine Brautstylistin aus Wien
           </h2>
           <p className="text-[color:var(--ink-soft)] leading-relaxed">
-            Ich begleite Bräute an einem der wichtigsten Tage ihres Lebens und liebe natürliche Looks, die deine Persönlichkeit unterstreichen. Mein Ziel ist, dass du dich an deinem Hochzeitstag wunderschön fühlst – ohne dich verkleidet zu fühlen.
+            Seit über acht Jahren begleite ich Bräute durch einen der schönsten Momente ihres Lebens. Für mich ist Brautstyling mehr als Make-up und Frisur – es geht darum, dass du dich am großen Tag vollkommen wohl und du selbst fühlst. Ich liebe zeitlose, natürliche Looks, die deine eigene Schönheit in den Vordergrund stellen.
           </p>
           <ul className="mt-8 space-y-3">
             {facts.map((fact) => (

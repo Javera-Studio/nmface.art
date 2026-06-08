@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: "Kommst du auch zu meiner Location?",
-    a: "Sehr gerne. Ich biete einen mobilen Service in Heilbronn und Umgebung an und komme zu dir nach Hause, in deine Suite oder direkt an die Hochzeitslocation.",
+    a: "Sehr gerne. Ich biete einen mobilen Service in Wien und Umgebung an und komme zu dir nach Hause, in deine Suite oder direkt an die Hochzeitslocation.",
   },
   {
     q: "Stylst du auch meine Gäste?",

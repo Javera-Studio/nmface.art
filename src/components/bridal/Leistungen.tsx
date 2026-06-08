@@ -19,7 +19,7 @@ const services = [
   },
   {
     title: "Mobiler Service",
-    text: "Ich komme zu dir – in deine Suite, dein Zuhause oder direkt an die Hochzeitslocation in Heilbronn und Umgebung.",
+    text: "Ich komme zu dir – in deine Suite, dein Zuhause oder direkt an die Hochzeitslocation in Wien und Umgebung.",
   },
 ];
 

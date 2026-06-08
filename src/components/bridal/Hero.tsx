@@ -54,7 +54,7 @@ export function Hero() {
             </h1>
 
             <p className="text-[15px] sm:text-base text-white/70 tracking-wide pt-1">
-              Mobile Brautstylings in Heilbronn &amp; Umgebung
+              Mobile Brautstylings in Wien &amp; Umgebung
             </p>
 
             <div className="flex flex-wrap gap-3 pt-3">

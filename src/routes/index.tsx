@@ -18,13 +18,13 @@ import stock4 from "@/assets/stock4.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NM Faceart | Natürliches Brautstyling in Heilbronn" },
+      { title: "Ivory Bridal Studio | Natürliches Brautstyling in Wien" },
       {
         name: "description",
         content:
-          "Natürliches Brautstyling, Brautfrisuren und Make-up für deinen Hochzeitstag. Mobile Brautstylings in Heilbronn und Umgebung.",
+          "Natürliches Brautstyling, Brautfrisuren und Make-up für deinen Hochzeitstag. Mobile Brautstylings in Wien und Umgebung.",
       },
-      { property: "og:title", content: "NM Faceart | Bridal Styling" },
+      { property: "og:title", content: "Ivory Bridal Studio | Bridal Styling" },
       {
         property: "og:description",
         content:

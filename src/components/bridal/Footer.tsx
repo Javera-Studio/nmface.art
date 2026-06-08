@@ -31,7 +31,7 @@ export function Footer() {
         {/* Kontakt */}
         <p className="text-[11px] tracking-[0.44em] uppercase text-white mb-2.5">Kontakt</p>
         <ul className="space-y-1.5 text-[14px] text-white mb-4">
-          <li className="text-[12px] text-white/65">Heilbronn &amp; Umgebung · Mobiler Service</li>
+          <li className="text-[12px] text-white/65">Wien &amp; Umgebung · Mobiler Service</li>
           <li>
             <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-2 hover:text-white/75 transition-colors">
               <MailIcon size={17} />{CONTACT_EMAIL}
@@ -39,7 +39,7 @@ export function Footer() {
           </li>
           <li>
             <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white/75 transition-colors">
-              <InstagramIcon size={17} />@nmface.art
+              <InstagramIcon size={17} />@ivory.bridal.studio
             </a>
           </li>
           <li>
@@ -80,7 +80,7 @@ export function Footer() {
 
           {/* Col 1: Brand */}
           <div>
-            <img src="/images/logotransparent.png" alt="NM Faceart" className="h-[138px] w-auto mb-5" />
+            <img src="/images/logotransparent.png" alt="Ivory Bridal Studio" className="h-[138px] w-auto mb-5" />
             <p className="text-[14px] text-white/70 max-w-[230px] leading-relaxed">
               Mobiles Brautstyling für moderne, romantische Bräute – mit Ruhe, Zeit und Persönlichkeit.
             </p>
@@ -90,7 +90,7 @@ export function Footer() {
           <div>
             <p className="text-[13px] tracking-[0.42em] uppercase text-white/60 mb-6">Kontakt</p>
             <ul className="space-y-4 text-[14px] text-white/75 leading-relaxed">
-              <li>Heilbronn &amp; Umgebung · Mobiler Service</li>
+              <li>Wien &amp; Umgebung · Mobiler Service</li>
               <li>
                 <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-2 hover:text-white transition-colors">
                   <MailIcon />{CONTACT_EMAIL}
@@ -98,7 +98,7 @@ export function Footer() {
               </li>
               <li>
                 <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-                  <InstagramIcon />@nmface.art
+                  <InstagramIcon />@ivory.bridal.studio
                 </a>
               </li>
               <li>
